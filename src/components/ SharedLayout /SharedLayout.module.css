@@ -1,0 +1,68 @@
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  margin-bottom: 16px;
+  margin-top: 20px;
+
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  color: white;
+  font-size: 24px;
+  line-height: 1.4;
+  }
+
+.logo_accent {
+  color: #01d28e;
+}
+
+.navigation {
+  display: flex;
+  margin-left: 93px;
+}
+
+.link {
+
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.link[aria-current='page'] {
+  color: #01d28e;
+}
+
+.hero_background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 850px;
+ /*  background-image: url(../../images/car.webp); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% -25px;
+  z-index: -1;
+}
+
+.hero_overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+}
